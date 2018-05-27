@@ -5,7 +5,7 @@ Besides that, this repository also contains an algorithm to calculate the price 
 
 ## Description
 
-This image describes one possible (simplified) implementation of the system.
+This image below describes one possible (simplified) implementation of the system.
 
 ![UML](https://github.com/carloscdias/unicef-challenge/raw/master/docs/unicef-challenge-uml.png "UML")
 
