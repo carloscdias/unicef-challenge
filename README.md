@@ -8,7 +8,7 @@ Besides that, this prototype also describes one of the possibles architectures c
 The pricing of an item can be calculated using the DynamicPricing class of this repository.
 This class receives a **map** which is a graph containing all nodes and its connections, you can find an example of a map inside `test/data/map.json`.
 
-**calculate** is the main method of this class. This method is responsible for calculating the price of a given item in a specific location based on its base price, distance between stock location and buyers location, desarability of the item in the location, among others factors.
+**calculate** is the main method of this class. This method is responsible for calculating the price of a given item in a specific location based on its base price, distance between store location and buyers location, desarability of the item in the final location, among others factors.
 
 The algorithm behavior is described below:
 
