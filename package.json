@@ -1,0 +1,22 @@
+{
+  "name": "dynamic-pricing-unicef-challenge",
+  "version": "1.0.0",
+  "description": "This package provides helper functions to calculate dynamically price of goods based on demand, location and others attributes",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carloscdias/unicef-challenge.git"
+  },
+  "author": "Carlos Cardoso Dias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carloscdias/unicef-challenge/issues"
+  },
+  "homepage": "https://github.com/carloscdias/unicef-challenge#readme"
+}
