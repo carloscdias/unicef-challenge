@@ -1,0 +1,40 @@
+{
+  "A": [
+    { "node": "B", "distance": 4 },
+    { "node": "C", "distance": 3 },
+    { "node": "E", "distance": 7 }
+  ],
+  "B": [
+    { "node": "A", "distance": 4 },
+    { "node": "C", "distance": 6 },
+    { "node": "D", "distance": 5 }
+  ],
+  "C": [
+    { "node": "A", "distance": 3 },
+    { "node": "B", "distance": 6 },
+    { "node": "D", "distance": 11 },
+    { "node": "E", "distance": 8 }
+  ],
+  "D": [
+    { "node": "B", "distance": 5 },
+    { "node": "C", "distance": 11 },
+    { "node": "E", "distance": 2 },
+    { "node": "G", "distance": 10 },
+    { "node": "F", "distance": 2 }
+  ],
+  "E": [
+    { "node": "A", "distance": 7 },
+    { "node": "C", "distance": 8 },
+    { "node": "D", "distance": 2 },
+    { "node": "G", "distance": 5 }
+  ],
+  "F": [
+    { "node": "D", "distance": 2 },
+    { "node": "G", "distance": 3 }
+  ],
+  "G": [
+    { "node": "E", "distance": 5 },
+    { "node": "D", "distance": 10 },
+    { "node": "F", "distance": 3 }
+  ]
+}
