@@ -1,40 +1,61 @@
 {
-  "A": [
-    { "node": "B", "distance": 4 },
-    { "node": "C", "distance": 3 },
-    { "node": "E", "distance": 7 }
-  ],
-  "B": [
-    { "node": "A", "distance": 4 },
-    { "node": "C", "distance": 6 },
-    { "node": "D", "distance": 5 }
-  ],
-  "C": [
-    { "node": "A", "distance": 3 },
-    { "node": "B", "distance": 6 },
-    { "node": "D", "distance": 11 },
-    { "node": "E", "distance": 8 }
-  ],
-  "D": [
-    { "node": "B", "distance": 5 },
-    { "node": "C", "distance": 11 },
-    { "node": "E", "distance": 2 },
-    { "node": "G", "distance": 10 },
-    { "node": "F", "distance": 2 }
-  ],
-  "E": [
-    { "node": "A", "distance": 7 },
-    { "node": "C", "distance": 8 },
-    { "node": "D", "distance": 2 },
-    { "node": "G", "distance": 5 }
-  ],
-  "F": [
-    { "node": "D", "distance": 2 },
-    { "node": "G", "distance": 3 }
-  ],
-  "G": [
-    { "node": "E", "distance": 5 },
-    { "node": "D", "distance": 10 },
-    { "node": "F", "distance": 3 }
-  ]
+  "A": {
+    "demands": { "soap": 0.4, "rice": 0.3, "potato": 0.3 },
+    "neighboors": [
+      { "node": "B", "distance": 4, "risk": 0.1 },
+      { "node": "C", "distance": 3, "risk": 0.2 },
+      { "node": "E", "distance": 7, "risk": 0.6, "test": 0.5 }
+    ]
+  },
+  "B": {
+    "demands": { "rice": 0.7, "potato": 0.3 },
+    "neighboors": [
+      { "node": "A", "distance": 4, "risk": 0.2 },
+      { "node": "C", "distance": 6, "risk": 0.5 },
+      { "node": "D", "distance": 5, "risk": 0.6 }
+    ]
+  },
+  "C": {
+    "demands": { "soap": 0.5, "potato": 0.5 },
+    "neighboors": [
+      { "node": "A", "distance": 3, "risk": 0.4 },
+      { "node": "B", "distance": 6, "risk": 0.1 },
+      { "node": "D", "distance": 11, "risk": 0.1 },
+      { "node": "E", "distance": 8, "risk": 0.7 }
+    ]
+  },
+  "D": {
+    "demands": { "potato": 1 },
+    "neighboors": [
+      { "node": "B", "distance": 5, "risk": 0.3 },
+      { "node": "C", "distance": 11, "risk": 0.9 },
+      { "node": "E", "distance": 2, "risk": 0.8 },
+      { "node": "G", "distance": 10, "risk": 0.8 },
+      { "node": "F", "distance": 2, "risk": 0.1 }
+    ]
+  },
+  "E": {
+    "demands": { "soap": 1 },
+    "neighboors": [
+      { "node": "A", "distance": 7, "risk": 0.1 },
+      { "node": "C", "distance": 8, "risk": 0.1 },
+      { "node": "D", "distance": 2, "risk": 0.2 },
+      { "node": "G", "distance": 5, "risk": 0.1 }
+    ]
+  },
+  "F": {
+    "demands": { "soap": 0.1, "rice": 0.8, "potato": 0.1 },
+    "neighboors": [
+      { "node": "D", "distance": 2, "risk": 0.3 },
+      { "node": "G", "distance": 3, "risk": 0.8 }
+    ]
+  },
+  "G": {
+    "demands": { "steak": 1 },
+    "neighboors": [
+      { "node": "E", "distance": 5, "risk": 0.7 },
+      { "node": "D", "distance": 10, "risk": 0.7 },
+      { "node": "F", "distance": 3, "risk": 0.1 }
+    ]
+  }
 }
