@@ -35,4 +35,15 @@ You can run the tests using the command
 npm test
 ``` 
 
+You can also use the entire module [installing](https://docs.npmjs.com/cli/install) or [linking](https://docs.npmjs.com/cli/link) it locally.
+
+Currently this module counts only with the class DynamicPricing, so it's usually best to require it as:
+
+```js
+const { DynamicPricing } = require('dynamic-pricing-unicef-challenge')
+```
+
+## Contributing
+
+Feel free to contribute! :D
 
